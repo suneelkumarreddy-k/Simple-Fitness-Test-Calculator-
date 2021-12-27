@@ -19,7 +19,7 @@ Age:
 </footer>
 <script>
 function sft() {
-document.getElementById("reps").innerHTML = document.getElementById("age").value / 2;
+document.getElementById("reps").innerHTML = Math.ceil(document.getElementById("age").value / 2);
 window.alert("Calculated 😎");
 }
 </script>
