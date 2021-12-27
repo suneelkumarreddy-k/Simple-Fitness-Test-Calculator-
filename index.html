@@ -4,11 +4,14 @@
 <h1>Simple Fitness Test Calculator</h1>
 Age:
 <input id="age" type="number" placeholder="years" >
-<input type="button" value="Calculate" >
+<input type="button" value="Calculate" onclick="sft()">
 <br>Workout = Deep Squats
 <br>Reps = <p id="reps">0</p>
 <script>
-
+function sft() {
+document.getElementById("reps").value = document.getElementById("age").value / 2;
+window.alert("Calculated");
+}
 </script>
 </body>
 </html>
