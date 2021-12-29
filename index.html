@@ -21,8 +21,11 @@ Age:
 </footer>
 <script>
 function sft() {
+var start = window.performance.now();
 document.getElementById("reps").innerHTML = Math.ceil(document.getElementById("age").value / 2);
-window.alert("Calculated 😎");
+var end = window.performance.now();
+var wpn = end-start;
+window.alert("Calculated "+wpn+" ms 😎");
 }
 </script>
 </body>
