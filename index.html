@@ -6,16 +6,25 @@
   <meta name="keywords" content="Simple Fitness Test Calculator">
   <meta name="author" content="Shri Suneel Kumar Reddy">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="style.css" >
 </head>
 <body>
 <h1>Simple Fitness Test Calculator</h1>
 <form onsubmit="sft();return false">
-Age:
+<label for="age">Age:</label>
 <input id="age" type="number" placeholder="years" required  >
 <input type="submit" value="Calculate" >
 </form>
-<p>Workout = Deep Squats</p>
-<p>Reps = <span id="reps">0</span></p>
+<table>
+<tr>
+<th>Workout</th>
+<th>Reps</th>
+</tr>
+<tr>
+<td>Deep Squats</td>
+<td><span id="reps">0</span></td>
+</tr>
+</table>
 <footer>
 <p>© Shri Suneel Kumar Reddy </p>
 </footer>
