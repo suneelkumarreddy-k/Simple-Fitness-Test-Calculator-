@@ -20,3 +20,5 @@ input {
 input:focus {
   border: 3px solid #555;
 }
+
+th { background-color: #bdd6ff; }
