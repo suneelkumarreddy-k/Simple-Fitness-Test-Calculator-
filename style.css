@@ -22,4 +22,4 @@ input:focus {
 }
 
 th { background-color: #bdd6ff; }
-td { padding : 20px; }
+th,td { padding : 20px; }
